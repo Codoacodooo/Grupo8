@@ -1,0 +1,268 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif; 
+}
+
+header{
+    position: sticky;
+    top: 0;
+    display: flex;
+    z-index: 3;
+    padding-bottom: 0;
+}
+#logo{
+    background-color: #fff;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    height: 8rem;
+}
+header img{
+    height: 6rem;
+}
+header ul{
+    list-style: none;
+    padding: .4rem;
+    background-color: #206351;
+    height: 8rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-content: center;
+    column-gap: 14rem;
+    margin-bottom: 0;
+}
+header li{
+    padding: 0.2rem;
+}
+header a{
+    text-decoration: none;
+    color: #fff;
+}
+header a:hover{
+    color: #fff;
+    font-weight: bold;
+    font-size: larger;
+    transition-property: all; 
+    transition-duration: 0.2s; 
+    transition-timing-function: ease-in;
+}
+
+
+#nuestros_cursos{
+    /*border: 2px solid violet;*/
+    margin: 1px 0px 0px 0px;
+    padding: 1px 0px 1px 10px;
+    color: #206351;
+}
+
+#activities-section{
+    /*border: 2px solid red;*/
+    width: 100%;
+    height: auto;
+    overflow: auto;
+}
+
+#flex-container1{
+    border: .5px solid aquamarine;
+    text-align: center;
+    margin: 0px 0px 3px 0px;
+    padding: 0px 0px 0px 0px;
+    box-sizing: border-box;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    overflow: auto;
+    background-color: aquamarine;
+    
+}
+
+.flex-item1{
+    /*border: 2px solid rgb(231, 192, 15);*/
+    text-align: center;
+    margin: 0rem 0rem 0rem 0rem;
+    padding: 0px 0px ;
+    height: auto;
+    overflow: auto;
+    width: auto;
+    background-color: aquamarine;
+    font-size: medium;
+    font-weight: bold;
+    color: #206351;
+
+    
+}
+
+#info{
+    background-color: aquamarine;
+    padding-top: 20px;
+}
+
+.flex-image{
+    padding: 0rem 0rem 0rem 0rem;
+    height: auto;
+    width: auto;
+    background-color: aquamarine;
+    overflow: auto;
+    align-items: center;
+    /*align-self: flex-end;*/
+}
+
+
+
+#desarrollo{
+    /*border: 5px solid rgb(47, 0, 255);*/
+    align-items: flex-start;
+    padding: 1%;
+    background-color: aquamarine;
+}
+
+#explicar{
+     /*border: 2px solid violet;*/
+     margin: 1px 0px 0px 0px;
+     padding: 8px 0px 6px 10px;
+     color: #206351; 
+}
+
+#link_1{
+    border: 10px solid #206351;
+    align-items: center;
+    background-color: aquamarine;
+    margin-top: 0%;
+    margin-left: 10%;
+    margin-bottom: 0%;
+    margin-right: 10%;
+    padding: 2%;
+}
+    
+#link_2{
+    border: 10px solid #206351;
+    align-items: center;
+    background-color: aquamarine;
+    margin-top: 0%;
+    margin-left: 10%;
+    margin-bottom: 0%;
+    margin-right: 10%;
+    /*margin: 10%;*/
+    padding: 2%;
+}
+
+#link_3{
+    border: 10px solid #206351;
+    align-items: center;
+    background-color: aquamarine;
+    margin-top: 0%;
+    margin-left: 10%;
+    margin-bottom: 0%;
+    margin-right: 10%;
+    /*margin: 10%;*/
+    padding: 2%;
+}
+#curso_1{
+    margin-bottom: 15%;
+}
+
+
+#curso_2{
+    margin-bottom: 15%;
+}
+
+#curso_3{
+    margin-bottom: 15%;
+}
+
+#volver_cursos1{
+    margin-top: .5%;
+}
+
+#volver_cursos2{
+    margin-top: .5%;
+}
+
+#volver_cursos3{
+    margin-top: .5%;
+}
+
+main a{
+    text-decoration: none;
+    color: #000;
+    font-size: larger;
+    background-color: aquamarine;
+}
+
+main a:hover{
+    color: #206351;
+    font-weight: bold;
+    font-size: medium;
+}
+
+button{
+    background-color: aquamarine;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+
+footer{
+    background-color: #206351;
+    padding: 2rem;
+    margin-top: 1rem;
+    position: sticky;
+    bottom: 0;
+    z-index: 30;
+    padding-bottom: 0;
+}
+
+footer h4{
+    text-align: center;
+    color:#fff;
+    margin-bottom: 1rem;
+}
+footer nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+footer a{
+    color:#fff;
+    text-decoration: none;
+    padding: .3rem;
+}
+footer a:hover{
+    font-size: larger;
+    font-weight: bold;
+    transition-property: all; 
+    transition-duration: 0.2s; 
+    transition-timing-function: ease-in;
+}
+.fa-brands{
+    font-size: 1.5rem;
+    padding: 0 .5rem;
+}
+
+
+
+@media screen  and (min-width:540px){
+    header{
+        display: block;
+    }
+    header ul{
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        column-gap:normal;
+    }
+    header img{
+        height: 7rem;
+    }
+    #logo{
+        height: 9rem;
+    }
+}
