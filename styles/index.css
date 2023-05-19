@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     font-family: 'Montserrat', sans-serif; 
+    /* border: 1px solid black; */
 }
 header{
     position: sticky;
@@ -20,6 +21,36 @@ header{
 header img{
     height: 6rem;
 }
+#clima{
+    position:fixed;
+    top: 0;
+    right: 0;
+    font-size: 0.8rem;
+    visibility: hidden;
+}
+#clima button{
+    position:fixed;
+    top: 0;
+    right: 0;
+    padding: .5rem;
+    border: none;
+    background-color: #BFE3D3;
+    border-radius: 5px;
+    align-self: center;
+}
+#clima button:hover{
+    color: #fff;
+    font-weight: bold;
+}
+#clima img{
+    height:2.5rem;
+}
+#temperatura{
+    position:fixed;
+    top: 3rem;
+    right: 0;
+
+}
 header ul{
     list-style: none;
     padding: .4rem;
@@ -34,6 +65,7 @@ header ul{
 }
 header li{
     padding: 0.2rem;
+    font-size: 1.1rem;
 }
 header a{
     text-decoration: none;
@@ -143,7 +175,7 @@ footer a:hover{
         display: block;
     }
     header ul{
-        height: auto;
+        height: 3rem;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
@@ -161,7 +193,7 @@ footer a:hover{
         height: 20rem;
     }
 }
-@media screen  and (min-width:960px) {
+/* @media screen  and (min-width:960px) {
     .container-md img{
         height: 25rem;
     }
@@ -171,4 +203,4 @@ footer a:hover{
     header li{
         font-size: 1.3rem;
     }
-}
+} */

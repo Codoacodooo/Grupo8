@@ -9,7 +9,7 @@ header{
     display: flex;
     z-index: 3;
     padding-bottom: 0;
-    background-color: #fff; 
+    /* background-color: #fff;  */
 }
 #logo{
     background-color: #fff;
@@ -22,7 +22,7 @@ header img{
     height: 6rem;
 }
 header ul{
-    margin: 3px ;
+    /* margin: 3px ; */
     list-style: none;
     padding: .4rem;
     background-color: #206351;
@@ -36,7 +36,7 @@ header ul{
 }
 header li{
     padding: 0.2rem;
-    
+    font-size: 1.1rem;
 }
 header a{
     text-decoration: none;
@@ -55,7 +55,7 @@ main {
     background-color: #fff;
 } 
 
-body ul{ 
+/* body ul{ 
     padding: 2rem;
     margin: 10px;
     background-color: #206351;
@@ -65,7 +65,7 @@ body ul{
     justify-content: center;
     align-content: center;
     column-gap: 10rem;
-} 
+}  */
 
 form{
 
@@ -144,9 +144,9 @@ footer a{
     color:#fff;
     text-decoration: none;
     padding: .3rem;
-    font-size: larger;   
+    /* font-size: larger;    */
 }
-footer p:hover{
+footer a:hover{
     font-size: larger;
     font-weight: bold;
     transition-property: all; 
@@ -165,7 +165,7 @@ footer p:hover{
         display: block;
     }
     header ul{
-        height: auto;
+        height: 3rem;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
@@ -178,12 +178,12 @@ footer p:hover{
         height: 9rem;
     }
 }
-@media screen  and (min-width:720px) {
+/* @media screen  and (min-width:720px) {
     .container-md img{
         height: 20rem;
     }
-}
-@media screen  and (min-width:960px) {
+} */
+/* @media screen  and (min-width:960px) {
     .container-md img{
         height: 25rem;
     }
@@ -193,4 +193,4 @@ footer p:hover{
     header li{
         font-size: 1.3rem;
     }
-}
+} */
