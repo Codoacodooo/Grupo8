@@ -7,11 +7,11 @@ function obtenerTemperatura(){
     .then(data => {
        seccion.innerHTML = 
             `
-            <seccion>
+            <section>
                 <p> La temperatura actual en Buenos Aires es ${data.temp_c}º</p>
                 <p>${data.wx_desc}, humedad ${data.humid_pct}% <img src="./image/clima/${data.wx_icon}" ></p>
                 
-            </seccion>
+            </section>
             `     
     })
     .catch(err => console.log(err))

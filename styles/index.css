@@ -85,6 +85,7 @@ header a:hover{
 }
 .carousel-caption h5{
     font-weight: bold;
+    font-size: 2rem;
 }
 #encabezado{
     color: #206351;
@@ -189,8 +190,8 @@ footer a:hover{
     }
 }
 @media screen  and (min-width:720px) {
-    .container-md img{
-        height: 20rem;
+    #clima{
+        visibility:visible;
     }
 }
 /* @media screen  and (min-width:960px) {
