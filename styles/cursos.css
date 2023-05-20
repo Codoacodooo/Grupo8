@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     font-family: 'Montserrat', sans-serif; 
+    /* border: 1px solid black; */
 }
 
 header{
@@ -51,12 +52,12 @@ header a:hover{
 }
 
 
-#nuestros_cursos{
-    /*border: 2px solid violet;*/
+/* #nuestros_cursos{
+    border: 2px solid violet;
     margin: 2px;
-    /* padding: 1px 0px 1px 10px; */
+    padding: 1px 0px 1px 10px;
     color: #206351;
-}
+} */
 
 /* #activities-section{
     border: 2px solid red;
@@ -64,11 +65,14 @@ header a:hover{
     height: auto;
     overflow: auto;
 } */
-
+/* #nuestros_cursos{
+    position:absolute;
+    z-index: 40;
+} */
 .flex-container1{
     /* border: .5px solid aquamarine; */
     text-align: center;
-    margin: 0px 0px 3px 0px;
+    margin: 0px 0px 10px 0px;
     /* padding: 0px 0px 0px 0px; */
     /* box-sizing: border-box; */
     height: auto;
@@ -98,7 +102,7 @@ header a:hover{
     color: #206351;   
 }
 
-#info button{
+.info button{
     /* background-color: aquamarine; */
     /* padding-top: 2rem; */
     border: none;
@@ -126,7 +130,7 @@ header a:hover{
 .explicar{
      /*border: 2px solid violet;*/
      margin: 1px;
-     padding: 8px 0px 6px 10px;
+     padding: 4px 0px 4px 10px;
      color: #206351; 
 }
 
@@ -134,11 +138,11 @@ header a:hover{
     border: 5px solid #206351;
     align-items: center;
     background-color: #BFE3D3;
-    /* margin-top: 10%; */
+    margin-top: 5%;
     margin-left: 10%;
     margin-right: 10%;
     padding: 2%;
-    /* margin-bottom: 15%; */
+    margin-bottom: 2%;
     border-radius: 5px;
 }
     
@@ -166,16 +170,16 @@ header a:hover{
     padding: 2%;
 } */
 #curso_1{
-    margin-bottom: 15%;
+    margin-bottom: 16%;
 }
 
 
 #curso_2{
-    margin-bottom: 15%;
+    margin-bottom: 18%;
 }
 
 #curso_3{
-    margin-bottom: 15%;
+    margin-bottom: 18%;
 }
 
 /* #volver_cursos1{
@@ -202,6 +206,15 @@ main a:hover{
     font-weight: bold;
     font-size: medium;
 }
+.volver button{
+    /* background-color: aquamarine; */
+    /* padding-top: 2rem; */
+    border: none;
+    background-color: #206351;
+    border-radius: 5px;
+    padding: .5rem;
+    margin-top: 1rem
+}
 
 /* button{
     background-color: #BFE3D3;
@@ -214,10 +227,10 @@ footer{
     background-color: #206351;
     padding: 2rem;
     margin-top: 1rem;
-    /* position: sticky;
+    position: sticky;
     bottom: 0;
     z-index: 30;
-    padding-bottom: 0; */
+    padding-bottom: 0;
 }
 
 footer h4{
