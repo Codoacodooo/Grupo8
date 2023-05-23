@@ -2,8 +2,6 @@
     box-sizing: border-box;
     margin: 0;
     font-family: 'Montserrat', sans-serif; 
-    /* font-size: 1.1rem; */
-    /* border: 1px solid black; */
 }
 header{
     position: sticky;
@@ -131,19 +129,3 @@ footer a:hover{
         height: 9rem;
     }
 }
-/* @media screen  and (min-width:720px) {
-    .container-md img{
-        height: 20rem;
-    }
-} */
-/* @media screen  and (min-width:960px) {
-    .container-md img{
-        height: 25rem;
-    }
-    header ul{
-        height: 3rem;    
-    }
-    header li{
-        font-size: 1.3rem;
-    }
-} */

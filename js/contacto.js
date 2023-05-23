@@ -22,7 +22,7 @@ else{
 // Si el @ no existe, la funcion search devuelve -1
 let xx=correo.search("@");
 if(correo.length=0 || xx==-1){
-    alert("debe ingresar un correo válido");
+    alert("Debe ingresar un correo válido");
 }
 else{
     datosCorreo=true;
@@ -41,6 +41,6 @@ if(datosNombre && datosTelefono && datosCorreo)
     alert("Datos válidos... enviando el correo");
 }
 else{
-    alert("datos Invalidos");
+    alert("Datos Invalidos");
 }
 }

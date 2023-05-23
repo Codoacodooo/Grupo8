@@ -1,7 +1,6 @@
     
 function obtenerUsuarioRandom(){
     const seccion = document.getElementById("profesores");
-    // seccion.innerHTML = "<p> °°° </p>"
 
     fetch("https://randomuser.me/api/?nat=es")
     .then(res => res.json())

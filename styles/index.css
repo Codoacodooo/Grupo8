@@ -2,7 +2,6 @@
     box-sizing: border-box;
     margin: 0;
     font-family: 'Montserrat', sans-serif; 
-    /* border: 1px solid black; */
 }
 header{
     position: sticky;
@@ -42,15 +41,6 @@ header img{
     color: #fff;
     font-weight: bold;
 }
-/* #clima img{
-    height:2.5rem;
-}
-#temperatura{
-    position:fixed;
-    top: 3rem;
-    right: 0;
-
-} */
 #profesores{
     margin-top: 2.2rem;
     margin-right: 3rem;
@@ -198,14 +188,3 @@ footer a:hover{
         visibility:visible;
     }
 }
-/* @media screen  and (min-width:960px) {
-    .container-md img{
-        height: 25rem;
-    }
-    header ul{
-        height: 3rem;    
-    }
-    header li{
-        font-size: 1.3rem;
-    }
-} */
