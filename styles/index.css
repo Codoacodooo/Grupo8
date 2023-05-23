@@ -21,14 +21,14 @@ header{
 header img{
     height: 6rem;
 }
-#clima{
+#contacto_profesores{
     position:fixed;
     top: 0;
     right: 0;
     font-size: 0.8rem;
     visibility: hidden;
 }
-#clima button{
+#contacto_profesores button{
     position:fixed;
     top: 0;
     right: 0;
@@ -38,11 +38,11 @@ header img{
     border-radius: 5px;
     align-self: center;
 }
-#clima button:hover{
+#contacto_profesores button:hover{
     color: #fff;
     font-weight: bold;
 }
-#clima img{
+/* #clima img{
     height:2.5rem;
 }
 #temperatura{
@@ -50,6 +50,10 @@ header img{
     top: 3rem;
     right: 0;
 
+} */
+#profesores{
+    margin-top: 2.2rem;
+    margin-right: 3rem;
 }
 header ul{
     list-style: none;
@@ -85,7 +89,7 @@ header a:hover{
 }
 .carousel-caption h5{
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 1.2rem;
 }
 #encabezado{
     color: #206351;
@@ -190,7 +194,7 @@ footer a:hover{
     }
 }
 @media screen  and (min-width:720px) {
-    #clima{
+    #contacto_profesores{
         visibility:visible;
     }
 }
